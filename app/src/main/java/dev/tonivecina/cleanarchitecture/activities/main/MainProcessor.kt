@@ -20,8 +20,8 @@ class MainProcessor(val view: MainActivity): MainListeners.ActionListener {
         MainOnClickListener(this)
     }
 
-    val notesInteractor: MainInteractoreNotes by lazy {
-        MainInteractoreNotes()
+    val notesInteractor: MainInteractorNotes by lazy {
+        MainInteractorNotes()
     }
 
     fun onCreate() {

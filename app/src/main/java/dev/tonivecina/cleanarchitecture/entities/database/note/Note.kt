@@ -10,7 +10,7 @@ import java.util.*
 /**
  * @author Toni Vecina on 6/25/17.
  */
-@Entity(tableName = "note")
+@Entity(tableName = "notes")
 class Note: Serializable {
     @PrimaryKey(autoGenerate = true)
     var id: Int = 0

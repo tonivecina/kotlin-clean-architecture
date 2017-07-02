@@ -21,7 +21,7 @@ class Configuration: Application() {
 
         synchronized(this) {
             database = Room
-                    .databaseBuilder(instance, AppDataBase::class.java, "database")
+                    .databaseBuilder(instance, AppDataBase::class.java, "notesDB")
                     .build()
         }
 

@@ -8,7 +8,7 @@ import java.util.*
 /**
  * @author Toni Vecina on 6/28/17.
  */
-class MainInteractoreNotes {
+class MainInteractorNotes {
 
     private val noteDao = Configuration.database.noteDao
 
