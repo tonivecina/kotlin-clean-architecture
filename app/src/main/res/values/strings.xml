@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Clean Architecture</string>
+
+    <string name="title_title">Title</string>
+    <string name="title_subtitle">Subtitle</string>
+    <string name="title_activity_new_note">NewNoteActivity</string>
+
+    <string name="action_plus">+</string>
+    <string name="action_apply_add">Apply note</string>
+</resources>

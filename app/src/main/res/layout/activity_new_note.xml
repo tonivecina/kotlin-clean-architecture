@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.newnote.NewNoteActivity"
+    android:padding="30dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/title_title"
+        android:id="@+id/activity_newNote_editText_title"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:lines="4"
+        android:gravity="top"
+        android:hint="@string/title_subtitle"
+        android:id="@+id/activity_newNote_editText_description"
+        app:layout_goneMarginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@id/activity_newNote_editText_title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/action_apply_add"
+            android:id="@+id/activity_newNote_button_add"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
